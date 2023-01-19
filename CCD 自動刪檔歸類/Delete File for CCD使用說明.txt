@@ -1,0 +1,12 @@
+檔案架構:
+DFCv1.0 ─┬─ Delete File for CCD.py (主程序)
+          │
+          └─ Data ─┬─ 存放的圖檔(jpg)
+                      │
+                      └─ 存放的Excel檔(cvs)
+使用方法:
+1. Delete File for CCD.py 會直接運行後移除 根資料夾(DFCv1.0) > Data 超過90天的檔案。
+2. 須將 Cognex In-Sight Software 紀錄、回放 匯出的資料設定在 根資料夾(DFCv1.0) > Data 內。
+3. 檔案移除時不會進入資源回收桶，需另外保存的話，請移出 Data 資料夾之外。
+4. Del File for CCD Log - 日期.txt 此檔案為記錄檔，可用於檢視移除哪些資料。
+5. 移除時僅會移除檔案並不會移除資料夾。
